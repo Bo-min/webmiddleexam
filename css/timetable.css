@@ -1,0 +1,89 @@
+.time-table{
+  color: #06425C;
+  text-align: center;
+  border: 3px solid #000000;
+  border-radius: 0px 0px 25px 25px;
+  border-spacing: 0;
+}
+
+tr{
+  background-color: #F2F2F2;
+}
+tr:last-child{
+  border-radius: 0px 0px 25px 25px;
+}
+tr:last-child>td:first-child{
+  border-radius: 0px 0px 0px 25px;
+}
+tr:last-child>td:last-child{
+  border-radius: 0px 0px 25px 0px;
+}
+
+caption{
+  font-variant: small-caps;
+  background-color: #666666;
+  color: #FFFFFF;
+  font-size: 150%;
+  border-radius: 25px 25px 0px 0px;
+}
+
+th, td{
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 2px;
+  padding-left: 0;
+}
+
+th{
+  background-color: #FFFFFF;
+}
+
+td{
+  width: 100px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.prof-song,.prof-lee,.prof-seo, .prof-cho{
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.prof-song{
+  background-color: #51A39D;
+}
+
+.prof-lee{
+  background-color: #53D1D6;
+}
+
+.prof-cho{
+  background-color: #36B55A;
+}
+
+.prof-seo{
+  background-color: #B52097;
+}
+
+span{
+  text-align: center;
+  color: #FF0000;
+  visibility:hidden;
+}
+
+span:active{
+  visibility: visible;
+}
